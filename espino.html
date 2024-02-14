@@ -1,0 +1,107 @@
+<!DOCTYPE html>    
+    <head>
+        <title>Portfolio</title>
+        <style>
+            .flex-container {
+                display: flex;
+                justify-content: space-around;
+                align-items: stretch;
+                flex-wrap: wrap;
+                width: 100%;
+                align-content: stretch;
+            }
+
+            .flex-item {
+                border-style: solid;
+                border-width: 5px;
+                border-color: black;
+                text-align: center;
+                padding: 10px;
+                flex-basis: 20%;
+            }
+            .center{
+                text-align: center;
+            }
+            body{
+                background-image: url();
+                background-repeat: repeat;
+                background: linear-gradient(106.5deg, rgba(255, 215, 185, 0.91) 23%, rgba(223, 159, 247, 0.8) 93%);
+
+            }
+
+        
+
+        </style>
+    </head>
+
+    <body>
+        <div class="flex-container" id="header">
+            <div class="flex-item" style="flex-basis:100%">
+                <div class="flex-container">
+                <img src="https://i.pinimg.com/564x/c5/07/c7/c507c714af7312f98d98ce4fff031e23.jpg">
+            </div>
+                <p><a href="#footer">Footer</a></p>
+            </div>
+        </div>
+    
+        <div class="flex-item">
+        <h1 class="center">Featured Photo</h1>
+        <div class="flex-container">
+            <div class="flex-item">
+                <img src="https://i.pinimg.com/564x/c5/07/c7/c507c714af7312f98d98ce4fff031e23.jpg">
+            </div>
+        </div>
+        <h1 class="center">Previous Projects</h1>
+        <div class="flex-container">
+            <div class="flex-item" >
+                <h1>Catch the fruit</h1>
+                <p>Coded using java</p>
+                <p> catch the good fruits </p>
+                <p>and avoid the bad fruits.</p>
+            </div>
+            <div class="flex-item">
+                <h1>MAZE</h1>
+                <p>Coded using python</p>
+                <p>Stores the mazes in text files</p>
+                <p>Varying difficulties</p>
+            </div>
+            <div class="flex-item" >
+                <h1>Attendance Tracker</h1>
+                <p>Used to monitor attendance</p>
+                <p>accessible via google sheets</p>
+            </div>
+            <div class="flex-item" >
+                <h1>Diet Calculator</h1>
+                <p>Coded using R</p>
+                <p>Computes for optimal diet</p>
+            </div>
+        </div>
+        <div class="flex-container" >
+            <h1>Skills</h1>
+            <h1>Autobiography</h1>
+        </div>
+        <div class="flex-container" style="padding-bottom: 20px;">
+            <div class="flex-item" style="flex-basis: 45%;">
+                <p>Proficient in Java, Python, C++</p>
+                <p> Algorithms and Data Structures</p>
+                <p> Database Administration and Management</p>
+            </div>
+            <div class="flex-item" style="flex-basis: 45%;">
+                <p>Dylan Ross L. Espino</p>
+                <p>Born on November 20, 2003 in Calamba, Laguna</p>
+                <p>Graduated from University of the Philippines Rural High School</p>
+            </div>
+        </div>
+        </div>
+        <div class="flex-container" id="footer">
+            <div class="flex-item" style="flex-basis:100%">
+                <p>Address 123 1231 23123123</p>
+                <p>Contact no. 123456789</p>
+                <p>Copyright information</p>
+                 <p><a href="#header">Back to top</a></p>
+            </div>
+        </div>
+
+    </body>
+
+</html>
